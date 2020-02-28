@@ -138,10 +138,35 @@ p {
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    position: absolute; left: 1050px; 
+    position: absolute; left: 1050px;
 }
 
 #login:hover {
     background-color: #1a242f;
     border-color: #161f29;
+}
+
+.bottom {
+    background-color: #f0f3f5;
+    width: 1800px;
+    padding: 50px;
+    /*margin: 20px;*/
+    position:absolute; top: 820px;
+}
+
+#gray {
+    color: #999;
+    font-size: 13px;
+}
+
+.privacy {
+    position: absolute; top: 15px; left: 850px;
+}
+
+.terms {
+    position: absolute; top: 15px; left: 950px;
+}
+
+.copy {
+    position: absolute; top: 30px; left: 800px;
 }
